@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Cactus+Classical+Serif&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif+Khitan+Small+Script&family=Roboto&family=Varela+Round&display=swap');
+body{
+    background-color: rgb(46, 39, 107);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: "Roboto", sans-serif;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 69px;
+    background-color: black;
+    color: whitesmoke;
+
+}
+
+nav ul li{
+    padding: 0 12px;
+}
+
+.brand img{
+    width: 69px;
+    padding:5px;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.container {
+    min-height: 60vh;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    font-family: "Cactus Classical Serif", serif;
+    display: flex;
+    margin: 30px auto;
+    width: 80%;
+    border-radius: 10px;
+    padding: 12px;
+    background-image: url('bgsm3.png');
+    background-size: cover;  
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+.bottom{
+    position: sticky;
+    height: 100px;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icons{
+    margin-top: 20px;
+}
+.icons i{
+    cursor: pointer;
+}
+
+#myprogressbar
+{
+    width: 50vw;    
+}
